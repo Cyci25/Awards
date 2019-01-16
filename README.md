@@ -27,7 +27,7 @@
 
 
 # Project prompt
-    At Moringa school you create a lot of projects (IPs, Mid-week projects) but you never know how those projects rate with your peers. Your objective is to create an application like Awards https://awaaarrrds.herokuapp.com/. Links to an external site. The application will allow a user to post a project he/she has created and get it reviewed by his/her peers.
+    At Moringa school you create a lot of projects (IPs, Mid-week projects) but you never know how those projects rate with your peers. Your objective is to create an application like [Awards ](https://awaaarrrds.herokuapp.com/). Links to an external site. The application will allow a user to post a project he/she has created and get it reviewed by his/her peers.
 
 A project can be rated based on 3 different criteria
 
