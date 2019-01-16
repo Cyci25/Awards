@@ -115,8 +115,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'awards',
-        'USER': '',
-    'PASSWORD':'',
+        'USER': 'cynthia',
+    'PASSWORD':'marvin',
     }
 }
 
@@ -145,7 +145,7 @@ AUTH_PROFILE_MODULE='awardsapp.Profile'
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Africa, Nairobi'
+TIME_ZONE = 'Africa/Nairobi'
 
 USE_I18N = True
 

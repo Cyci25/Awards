@@ -1,14 +1,15 @@
 a {
-  color: #003366;
+  color: black;
 }
 
 body {
-  background-color: white;
+  background-color:papayawhip;
 }
 
 #victor {
-  font-family: 'Dosis', sans-serif;"
+  font-family: 'Times New Roman', Times, serif;
   font-size: 30px;
+  color: brown;
 }
 
 li {
