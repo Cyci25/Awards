@@ -1,5 +1,5 @@
 # Introduction
-
+### CYNTHIA MURIITHI
 
 
 ## API Endpoints (url / uri)
@@ -20,14 +20,14 @@
     The purpose of this Independent Project is to demonstrate your level of understanding of the various concepts that you have covered in the content throughout the week. The project will be graded by your peers and will determine if you are eligible to move on to the next module. All the requirements provided below should be met in a high quality manner.
 
 # Additional Information
-    Before you start building the project, create an empty Github Repository and submit the link of the repository in the LMS. All Independent Projects must be submitted by 6pm.
+    Before you start building the project, create an empty Github Repository and submit the link of the repository in the LMS.
 
 # References
-    If you get stuck during the development of your project you can contact me on Github
+    If you get stuck during the development of your project you can contact me on Github @cyci25
 
 
 # Project prompt
-    At Moringa school you create a lot of projects (IPs, Mid-week projects) but you never know how those projects rate with your peers. Your objective is to create an application like Awwards (Links to an external site.)Links to an external site. (It doesn't necessarily have to be exactly the same). The application will allow a user to post a project he/she has created and get it reviewed by his/her peers.
+    At Moringa school you create a lot of projects (IPs, Mid-week projects) but you never know how those projects rate with your peers. Your objective is to create an application like Awards https://awaaarrrds.herokuapp.com/. Links to an external site. The application will allow a user to post a project he/she has created and get it reviewed by his/her peers.
 
 A project can be rated based on 3 different criteria
 
@@ -68,6 +68,7 @@ Projects will be rated/reviewed based on the following criteria:
     You should create an API so that users can access data from your application. You can create two API endpoints:
 
 Profile - This endpoint should return all the user profiles with information such as the username, bio, projects of the user and profile picture
+
 Projects- This endpoint should return information pertaining to all the projects posted in your application.
 
 
@@ -81,7 +82,7 @@ Projects- This endpoint should return information pertaining to all the projects
     cd gallery/
     install virtual environment (venv) without pip
 
-    python3.6 -m venv --without-pip virtual
+    python3.7 -m venv --without-pip virtual
     Step 3: Activate virtual environment
 
     source virtual/bin/activate
@@ -94,11 +95,11 @@ Projects- This endpoint should return information pertaining to all the projects
 
 ## Built With
 
-    Python3.6 - Python is a programming language that lets you work quickly and integrate systems more effectively
-    Django - Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design
+    Python3.7 - Python is a programming language that lets you work quickly and integrate systems more effectively
+
+    Django1.11 - Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design
+
     postgresql - PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
-    Versioning
-    version 1.0.0
 
 ## Bugs
 
