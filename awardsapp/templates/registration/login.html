@@ -18,11 +18,12 @@
       <div class="card border-primary mb-4" style="max-width:25rem;">
 
         <div class="card-header text-center">
-          <h1 class="h1" style="font-family: 'Dosis', sans-serif; color:blue;font-size:65px;">AWARDS</h1>
-          <h3 class="text-center" style="color:grey;font-size:15px;font-family: 'Dosis', sans-serif;">Login to see photos and videos from your friends.</h3>
+          <h1 class="h1" style="font-family: 'Times New Roman', Times, serif;; color:brown;font-size:65px;">AWARDS</h1>
+          <h3 class="text-center" style="color:grey;font-size:15px;font-family: 'Times New Roman', Times, serif;;">Login to see
+            photos and videos from your friends.</h3>
         </div>
         <div class="card-body text-primary">
-          <form action="/accounts/login/" method="post" style="font-family: 'Dosis', sans-serif; " >
+          <form action="/accounts/login/" method="post" style="font-family: 'Times New Roman', Times, serif;; ">
             {% csrf_token %} {% bootstrap_form form%}
 
             <div class="form-group">
@@ -47,16 +48,17 @@
 
       <div class="card mt-5" style="width: 28rem;">
         <div class="card-body text-center">
-          <h5 class="card-title" style="font-family: 'Dosis', sans-serif;">Don't have an account?</h5>
-          <h2 style="color:grey;font-size:10px;font-family: 'Dosis', sans-serif;">By signing up, you agree to our Terms, Data Policy and Cookies Policy.</h2>
-          <a href="/accounts/register" class="btn btn-primary" style="font-family: 'Dosis', sans-serif;">Sign Up</a>
+          <h5 class="card-title" style="font-family: 'Times New Roman', Times, serif;;">Don't have an account?</h5>
+          <h2 style="color:grey;font-size:10px;font-family: 'Times New Roman', Times, serif;;">By signing up, you agree to our
+            Terms, Data Policy and Cookies Policy.</h2>
+          <a href="/accounts/register" class="btn btn-primary" style="font-family: 'Times New Roman', Times, serif;;">Sign Up</a>
         </div>
       </div>
     </div>
     <div class="col-md-6">
       <div class="card mt-5" style="width: 28rem;">
         <div class="card-body text-center">
-          <h5 class="card-title" style="font-family: 'Dosis', sans-serif;" >Get the app.</h5>
+          <h5 class="card-title" style="font-family: 'Times New Roman', Times, serif;;">Get the app.</h5>
           <a href="https://itunes.apple.com/ke/app/instagram/id389801252?mt=8"><img src="{% static 'photos/disruptive-innovation.jpg' %}"
               style="height:90px;width:200px;"></a>
           <a href="https://play.google.com/store?hl=en"><img src="{% static 'photos/food-blogging.jpg' %}" style="height:90px;width:200px;"></a>
@@ -100,5 +102,9 @@
 
 
 </div>
-
+<style>
+  body {
+    background-color: papayawhip;
+  }
+</style>
 {% endblock %}

@@ -8,7 +8,7 @@
 
   <div class="jumbotron text-center mb-0" id="jumbo" style="background-color:peachpuff">
 
-    <h1 class="h1" style="font-family: Georgia, 'Times New Roman', Times, serif, cursive; color:rgb(249, 249, 253);font-size:70px">Awards</h1>
+    <h1 class="h1" style="font-family: Georgia, 'Times New Roman', Times, serif, cursive; color:saddlebrown;font-size:70px">Awards</h1>
     <p class="h1" style="font-family: 'Dosis', cursive; color:black;font-size:25px;">View projects, submit your own
       projects and have them reviewed.</p>
   </div>
@@ -26,12 +26,12 @@
 
         <img src="{{project.project_image.url}}" data-target="#imageModal{{project.id}}" data-toggle="modal" alt=""
           class="img-fluid" id="eachimage1" size="100px200"></a>
-      <p style="font-family: 'Dosis', sans-serif; text-align:center;"> {{ project.description}}</p>
-      <p style="font-family: 'Dosis', sans-serif; text-align:center;"> {{ project.user.username}}</p>
-      <a href="{{ project.project_url}}"><span class="badge badge-pill badge-danger" style="font-family: 'Dosis', sans-serif;">
+      <p style="font-family: ''Times New Roman', Times, serif text-align:center;"> {{ project.description}}</p>
+      <p style="font-family: ''Times New Roman', Times, serif text-align:center;"> {{ project.user.username}}</p>
+      <a href="{{ project.project_url}}"><span class="badge badge-pill badge-danger" style="font-family: ''Times New Roman', Times, serif">
           Visit Site></span></a>
-      <span class="badge badge-pill badge-pill" style="font-family: 'Dosis', sans-serif; text-align:center;">Like</span>
-      <a href="{% url 'project' project.id %}"></a><span class="badge badge-pill badge-pill" style="font-family: 'Dosis', sans-serif; text-align:center;">View
+      <span class="badge badge-pill badge-pill" style="font-family: ''Times New Roman', Times, serif text-align:center;">Like</span>
+      <a href="{% url 'project' project.id %}"></a><span class="badge badge-pill badge-pill" style="font-family: ''Times New Roman', Times, serif text-align:center;">View
         Project</span></a>
 
     </div>
@@ -41,7 +41,7 @@
 <br>
 <br>
 <br>
-<div class="container" class="jumbotron text-center mt-3" style="background-color:beige;font-family: 'Dosis', sans-serif;">
+<div class="container" class="jumbotron text-center mt-3" style="background-color:beige;font-family: ''Times New Roman', Times, serif">
 
   <form action="{%url 'homePage'%}" method="post">
     {%csrf_token%} {% bootstrap_form letterForm %}
@@ -49,8 +49,8 @@
   </form>
 
 </div>
-
-
+<br>
+<hr>
 <div class="container">
   <div class="col-md-12">
     <div class="footer text-center">
@@ -67,7 +67,8 @@
         <li>HASHTAGS</li>
         <li>LANGUAGE</li>
         <br>
-
+        <br>
+        <hr>
         <li style="font-size:10px;"> <strong>© 2018 CYNTHIA MURIITHI</strong></li>
       </ul>
     </div>
